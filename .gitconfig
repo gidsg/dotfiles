@@ -1,0 +1,9 @@
+[alias]
+  c = commit -m
+  a = add
+  aa= !git add -u && git add . && git status
+  co = checkout
+  cob = checkout -b
+  up = !git fetch origin && git rebase origin/master
+  ir = !git rebase -i origin/master
+  po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
