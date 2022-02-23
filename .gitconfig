@@ -1,3 +1,8 @@
+[user]
+	email = 1764158+gidsg@users.noreply.github.com
+	name = Gideon Goldberg
+	signingkey = 2D05F7A54E11F294
+
 [alias]
   c = commit -m
   a = add
