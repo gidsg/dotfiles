@@ -12,3 +12,5 @@
   up = !git fetch origin && git rebase origin/master
   ir = !git rebase -i origin/master
   po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+  recent = log --pretty=format:"%ad:%an:%d:%B" --date=short  --all --since=2.months.ago --author='Gideon Goldberg'
+
